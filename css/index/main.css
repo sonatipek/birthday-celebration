@@ -1,0 +1,76 @@
+body{
+  text-align: center;
+  background: #2A9D8F;
+}
+h1{
+  color: #f6f6f6;
+  font-size: 2.75rem;
+  margin: 2.5rem 0px 1.25rem;
+}
+
+#clockdiv{
+	color: #f6f6f6;
+	display: inline-block;
+	font-weight: 300;
+	text-align: center;
+	font-size: 2rem;
+
+}
+
+#clockdiv > div{
+	padding: 0.75rem;
+	border-radius: 5px;
+	background: #264653;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 0.75rem;
+	border-radius: 5px;
+	background: #345d6e;
+	display: inline-block;
+}
+.smalltext{
+  padding-top: 0.25rem;
+  font-size: 1rem;
+}
+
+.celebration{
+  width: 362px;
+  display: block;
+  text-decoration: none;
+  background-color: #498097;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #f6f6f6;
+  padding: 1rem 0.75rem;
+  border-radius: 20px;
+  margin: 1rem auto;
+  border: 3px solid transparent;
+}
+.celebration:hover{
+  background-color: transparent;
+  color: #f6f6f6;
+  border: 3px solid #498097;
+}
+.celebration i{
+  margin-left: 0.75rem;
+}
+
+.celebration.disable{
+  width: 362px;
+  display: block;
+  text-decoration: none;
+  background-color: #498097;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #f6f6f6;
+  padding: 1rem 0.75rem;
+  border-radius: 20px;
+  margin: 1rem auto;
+  border: 1px solid transparent;
+  background: #1e2c32;
+  color: rgb(131, 129, 129);
+  opacity: 0.3;
+  cursor: not-allowed;
+}
