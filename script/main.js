@@ -33,7 +33,7 @@ function initializeClock(id, endtime){
         const button = document.getElementById('button');
 
         button.classList.remove('disable');
-        button.href="/pages/kutlama.html"
+        button.href="./pages/kutlama.html"
         }
   
       if(t.total<=0){
